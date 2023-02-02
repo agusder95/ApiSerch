@@ -7,7 +7,8 @@ export const SerchWrapper = styled(Section)`
 `;
 
 export const H1 = styled.h1`
-  margin-top: 5rem;
+  margin-top: 5rem;]
+  margin-bottom: 3rem;
   text-align:center;
   font-size:2.5rem;
   font-family:'schwifty';
