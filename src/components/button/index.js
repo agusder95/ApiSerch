@@ -1,9 +1,8 @@
-import React from 'react'
-import { ButtonWrapper } from './styles';
+import { ButtonWrapper } from "./styles";
 
-function Button({text,func}) {
+function Button({text, action}) {
      return (
-          <ButtonWrapper onClick={func} >
+          <ButtonWrapper onClick={action} >
                {text}
           </ButtonWrapper>
      );

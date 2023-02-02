@@ -1,14 +1,15 @@
 import { HeaderWrapper, ImgCountainer } from "./styles";
 
+import { BANNER } from "../../constants";
+
 import Image from "../image";
 
-import baner from "../../styles/images/Rick-And-Morty-Logo.png"
-
 function Header() {
+
      return (
           <HeaderWrapper>
                <ImgCountainer>
-                    <Image src={baner} alt={'baner'} />
+                    <Image src = {BANNER} alt ={'BANNER'} />
                </ImgCountainer>
           </HeaderWrapper>
      );

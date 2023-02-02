@@ -1,12 +1,9 @@
-
 import { string } from "prop-types";
 import { Img } from "./styles";
 
-
-
 function Image({src, alt}) {
      return (
-          <Img src = {src} alt = {alt} />
+          <Img src={src} alt={alt} />
      );
 }
 

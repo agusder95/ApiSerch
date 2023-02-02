@@ -9,10 +9,9 @@ export const ButtonWrapper = styled.button`
   display: inline-block;
   font-size: 1.5rem;
   font-family: 'Noto Sans Tangsa', sans-serif;
-  background-color:#69c8ecbf;
+  background-color:#69c8ec;
   color:#302f2f;
   :active{
      background-color: #3e8e41;
   }
-
 `;

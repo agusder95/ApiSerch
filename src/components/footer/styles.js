@@ -1,14 +1,13 @@
 import styled from 'styled-components';
 
-export const FooterWrapper = styled.div`
-  position:absolute;
-  bottom:0;
-  width:100%;
+export const FooterWrapper = styled.footer`
   background-color:#FAE48B99;
+
+  flex-grow:0;
 `;
 
 export const Ul = styled.ul`
-  
+  margin:2rem;
 `;
 
 export const Li = styled.li`
